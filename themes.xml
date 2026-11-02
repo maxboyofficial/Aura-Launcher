@@ -1,0 +1,9 @@
+<resources>
+    <!-- Wallpaper theme: window is transparent so the system wallpaper shows through -->
+    <style name="Theme.Launcher" parent="android:Theme.Material.Wallpaper.NoTitleBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>
